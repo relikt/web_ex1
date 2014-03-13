@@ -47,7 +47,7 @@ a {
 a:hover { color: white; }
 
 #menu,
-#primary { background: rgb(255, 196, 60); }
+#primary { background: #fec366; }
 
 /* Static Assignments */
 /*	Title*/
@@ -66,7 +66,7 @@ a:hover { color: white; }
 #sitemap li {
 	display: inline;
 	padding: 4px;
-	background: rgb(255, 196, 60);
+	background: #fec366;
 	border: 3px solid lightgrey;
 }
 
@@ -141,7 +141,7 @@ a:hover { color: white; }
 #primary .reviewer_other img { width:78px; }
 
 /*	Secondary */
-#secondary div{	background: rgb(255, 196, 60); }
+#secondary div{	background: #fec366; }
 
 #secondary .article {
 	margin: 0 0 10px 0;
@@ -289,7 +289,7 @@ a:hover { color: white; }
 	}
 
 	#menu_title {
-		background: rgb(255, 196, 60);
+		background: #fec366;
 		border-bottom: 2px solid white;
 	}
 
@@ -332,11 +332,22 @@ a:hover { color: white; }
 	margin: 0 7px 7px 0;
 }
 
+#thumbnail {
+	width: 60%;
+	margin: -3px 20% 0;
+	display: block;
+}
+
 @media screen and (max-width:480px) {
 	#primary .review_article img {
 		float: left;
 		width: 100%;
 		margin-bottom: 15px;
+	}
+
+	#thumbnail {
+		width: 80%;
+		margin: -3px 10% 0;
 	}
 }
 
@@ -344,7 +355,7 @@ a:hover { color: white; }
 #menu a {
 	display: block;
 	margin: 10px 0;
-	background: rgb(255, 196, 60);
+	background: #fec366;
 	border-bottom: 2px solid #eee;
 }
 
